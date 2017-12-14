@@ -107,9 +107,7 @@ public class JobForm {
         return coreCompetencies;
     }
 
-    public void setCoreCompetencies(ArrayList<CoreCompetency> coreCompetencies) {
-        this.coreCompetencies = coreCompetencies;
-    }
+    public void setCoreCompetencies(ArrayList<CoreCompetency> coreCompetencies) { this.coreCompetencies = coreCompetencies; }
 
     public ArrayList<PositionType> getPositionTypes() {
         return positionTypes;
